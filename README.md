@@ -1,12 +1,69 @@
-# React + Vite
+# 🚀 GasBooking - منصة حجز الغاز
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+مرحبًا بك في مشروع **GasBooking**، المنصة الذكية لحجز أسطوانات الغاز بطريقة سهلة، سريعة وآمنة.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧩 وصف المشروع
 
-## Expanding the ESLint configuration
+تم بناء هذه المنصة لتوفير وسيلة مرنة للمستخدمين لحجز أسطوانات الغاز من أقرب نقطة توزيع، مع إمكانية التوصيل، والدفع لاحقًا، ودعم كامل في كل خطوة.  
+المنصة تدعم الوضع الليلي والنهاري، وتتميز بتصميم عصري وتفاعلي باستخدام React وTailwind CSS وLucide React Icons.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ التقنيات المستخدمة
+
+| التقنية        | الاستخدام                                                  |
+|----------------|-------------------------------------------------------------|
+| React          | لبناء الواجهة الأمامية                                    |
+| Vite           | أداة التهيئة السريعة للمشروع                               |
+| Tailwind CSS   | لتنسيق وتصميم الواجهة بسهولة ومرونة                        |
+| DaisyUI        | مكونات جاهزة ومحسنة لـ Tailwind (استخدمت جزئيًا)          |
+| Lucide React   | مكتبة الأيقونات الحديثة والمفتوحة المصدر                   |
+| Google Fonts   | خط [El Messiri](https://fonts.google.com/specimen/El+Messiri) المحلي |
+
+---
+
+## 📂 هيكل المجلدات
+. ├── public/ │   └── fonts/el-messiri/            # الخط المحلي المستخدم ├── src/ │   ├── components/                  # Navbar و Timeline وغيرها │   ├── pages/                       # الصفحات الأساسية (الرئيسية، الطلبات، إلخ) │   ├── App.jsx                      # نقطة دخول التطبيق │   ├── index.css                    # استيراد Tailwind وخط El Messiri │   └── main.jsx                     # Mounting React ├── tailwind.config.js              # إعداد Tailwind والوضع الداكن ├── index.html                      # الهيكل العام للواجهة └── README.md                       # هذا الملف
+
+---
+
+## ✨ مميزات المنصة
+
+- 🌗 دعم الوضع الليلي والفاتح تلقائيًا
+- 🧭 تحديد أقرب مركز توزيع
+- 🚚 خدمة توصيل للطلبات
+- ⏱️ مواعيد مرنة للحجز
+- 🔐 أمان وتوثيق للأسطوانات
+- 📞 دعم مباشر 24/7
+- ⭐ واجهة جذابة بخط عربي أنيق
+
+---
+
+## 🔧 خطوات التشغيل محليًا
+
+```bash
+pnpm install
+pnpm run dev
+
+
+---
+
+📡 النشر
+
+المشروع جاهز للنشر على GitHub Pages أو Vercel أو أي خدمة استضافة.
+
+
+---
+
+📌 المطور
+
+Hadani0mar
+GitHub | m0usa.ly
+
+
+---
+
+> هذا المشروع تم تطويره باستخدام ❤️ وذكاء، مع احترام للتفاصيل وتجربة المستخدم.
+
